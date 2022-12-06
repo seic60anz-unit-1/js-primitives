@@ -19,3 +19,10 @@ function FtoC(temp) {
 let fahrenheit = 32
 console.log(`${fahrenheit}°F is ${FtoC(fahrenheit)}°C.`)
 
+//Question 3
+function yearDiff(x,y) {
+    return y-x
+}
+let birthYear = 2010
+let futureYear = 3000
+console.log(`I will be either ${yearDiff(birthYear,futureYear)-1} or ${yearDiff(birthYear,futureYear)} in ${futureYear}`)

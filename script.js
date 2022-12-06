@@ -36,7 +36,6 @@ console.log(typeof 15)
 // Prediction: number
 // Actual: number
 
-
 console.log(typeof 5.5)
 // Prediction: number
 // Actual: 
@@ -45,16 +44,13 @@ console.log(typeof NaN)
 // Prediction: number
 // Actual: number
 
-
 console.log(typeof "hello")
 // Prediction: string
 // Actual: string
 
-
 console.log(typeof true)
 // Prediction: boolean
 // Actual: boolean
-
 
 console.log(typeof 1 != 2)
 // Prediction: boolean
@@ -95,3 +91,12 @@ console.log(5 + true)
 console.log(5 + false)
 // Prediction: NaN
 // Actual: 5
+
+// --------------------------------------------------------
+// BONUS
+
+const radius = 5
+const circumference = 2 * Math.PI * radius
+const area = Math.PI * (radius ** 2)
+
+console.log(`A circle of radius 5 has a circumferemce of ${circumference.toFixed(2)} and an area of ${area.toFixed(2)}`)

@@ -95,8 +95,19 @@ console.log(5 + false)
 // --------------------------------------------------------
 // BONUS
 
+// circumference and area of a circle
 const radius = 5
 const circumference = 2 * Math.PI * radius
 const area = Math.PI * (radius ** 2)
 
 console.log(`A circle of radius 5 has a circumferemce of ${circumference.toFixed(2)} and an area of ${area.toFixed(2)}`)
+
+// lifetime of snacks
+const currentAge = 21
+const endAge = 91
+const favSnack = "Potato Chips"
+const numSnacksPerDay = 1
+const daysAlive = 365 * (91 - 21)
+const totalSnacksEaten = numSnacksPerDay * daysAlive
+
+console.log(`You would have eaten ${totalSnacksEaten} packets of ${favSnack}!`)

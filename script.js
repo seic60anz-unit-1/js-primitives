@@ -82,3 +82,16 @@ console.log(5 + true)
 console.log(5 + false)
 // Prediction: NaN
 // Actual: 5
+
+
+const diameter = 10
+const radius = 5
+
+let circleCircumference = Math.PI * diameter;
+let circleRadius = diameter * 2;
+let circleArea = Math.PI * radius * radius ;
+
+console.log(circleCircumference);
+console.log(circleRadius);
+console.log(circleArea);
+
